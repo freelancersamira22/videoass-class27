@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+  /* header section */
+img{
+    max-width: 100%;
+}
+.main-menu{}
+.header{
+    background:#3498db ;
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;    
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 0px 30px;
+    border-right: 1px solid white;
+    line-height: 60px;
+    transition: .5s;   
+}
+.header-right ul li a:hover{
+    background: #2980b9;
+}
+
+/* banner section */
+
+.banner{
+background-image: url(https://smartslider3.com/wp-content/uploads/2019/01/photo_slideshow.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 200px;
+ background-position: center;
+
+}
+.banner-tittle{
+    text-align: center;
+}
+.banner-tittle h1 {
+	background: rgba(100, 18, 18, 0.651);
+	color: white;
+	display: inline-block;
+	padding: 11px 5px;
+	font-size: 30px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.banner-tittle h2{
+    background: rgba(36, 89, 125, 0.817);
+    color: white;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/* about section */
+.service-sec{
+    padding: 50px;
+}
+.service{
+    padding: 40px;
+}
+.service-us {
+	/* width: 500px; */
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+.service-us h1{
+    font-size: 37px;
+    padding: 10px;
+}
+.service-us p{
+     padding: 0 256px;
+}
+.service-one{
+    margin-left: 100px;
+    padding: 30px;
+}
+.service-item{
+    float: left;
+    width: 260px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 1px 3px 7px 2px black;
+    transition: .5s;
+}
+.service-item:hover{
+        background-color: rgba(12, 37, 86, 0.895);
+}
+.service-item h3{
+    font-size: 27px;
+}
+.service-item p{
+    color: #8c8382
+}
+.service-item span{
+    background: #3498db;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 26px;
+    color: white;
+    border-radius: 16px 0px 16px 0px;
+}
+.service-item span:hover{
+    background: #7f8c8d;
+}
+
+/* another section */
+
+.another-sec{
+    padding: 40px;
+}
+.another-left-conten{
+    float: left;
+    width: 70%;
+}
+.another-left-notification{
+    float: right;
+    width: 25%;
+}
+.another-item img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px 1px #7f8c8dbf;
+}
+.another-item{
+margin-bottom: 30px;
+}
+
+/* notice section */
+.another-left-notification{}
+.another-left-notification h1{
+    font-size: 40px;
+    border-bottom: 1px solid #d35400;
+}
+.another-left-notification ul{}
+.another-left-notification ul li{
+    list-style: none;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 9px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 7px 1px #ddd;
+    transition: .5s;
+}
+.another-left-notification ul li:hover{
+    background-color: #3498db;
+}
+
+/* footer section */
+
+.footer-sec{
+    background: #2c3e50;
+    padding: 15px 0px;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+    
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.footer-left p{
+    color: white;
+}
+.footer-right{}
+.footer-right ul{
+    text-align: right;
+}
+.footer-right ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.footer-right ul li a{
+    color: white;
+    font-size: 30px;
+}
+.footer-right ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+ 

@@ -1,0 +1,243 @@
+@media (max-width:1240px) {
+    .header-left {
+        width: 20%;
+        text-align: center;
+    }
+    img {
+        padding-top: 10px;
+    }
+    .header-right {
+      width: 80%;
+    }
+    .header-right ul {
+        text-align: center;
+    }
+    .header-right ul li a {
+        font-size: 21px;
+        padding: 0px 28px;
+    }
+    .service-item {
+        width: 29%;
+        padding: 29px;
+    }
+    .service-item h3 {
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    .service-us p {
+        padding: 0;
+    }
+    .footer-left p {
+      
+        padding: 0 44px;
+    }
+    .footer-right ul {
+        text-align: center;
+    }
+}
+@media (max-width:1140px){
+    .header-left {
+        width: 12%;
+    }
+    .header-right ul li a {
+        font-size: 15px;
+        padding: 0px 21px;
+    }
+    .service-us p {
+        padding: 0 115px;
+    }
+    .service-one {
+        margin-left: 16px; 
+    }
+    .service-item {
+        float: left;
+        width: 29%;
+    }
+    .service-item h3 {
+        font-size: 22px;
+        padding: 14px;
+    }
+    .service-item p {
+        padding: 0 15px;
+    }
+} 
+@media (max-width:992px){
+    .header-left {
+        width: 17%;
+    }
+    .header-right ul {
+        text-align: left;
+    }
+    .banner-tittle {
+        text-align: left;
+    }
+    .service-one {
+        margin-left: 45px;
+    }
+    .service-item {
+        width: 70%;
+        margin-top: 12px;
+    }
+    .service-us p {
+        padding: 0 25px;
+    }
+    .another-left-notification ul li {
+         padding: 12px 9px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .footer-right ul li a {
+        font-size: 23px;
+    }
+}
+@media (max-width:768px){
+    .header-left {
+        width: 17%;
+        margin-top: 10px;
+    }
+    .header-right ul li a {
+        font-size: 13px;
+        padding: 0px 10px;
+    }
+    .banner-tittle {
+        text-align: left;
+    }
+    .banner {
+       padding: 162px;   
+    }
+    .banner-tittle h1 {
+       padding: 6px 7px;
+        font-size: 23px;  
+    }
+    .banner-tittle h2 {
+        font-size: 20px;
+    
+    }
+    .service-sec {
+        padding: 0px;
+    }
+    .service {
+        padding: 10px;
+    }
+    .service-us p {
+        padding: 0 10px;
+    }
+    .another-left-conten {
+        float: none;
+        width: 100%;
+    }
+    .another-item img {
+       
+        width: 100%;
+       
+    }
+    .another-left-notification {
+        float: none;
+        width: 100%;
+    }
+    .footer-left p {
+        padding: 0 17px;
+    }
+}
+@media (max-width:580px){
+    .header-right {
+        width: 93%;
+    }
+    .header-right ul li a {
+        font-size: 17px;
+        padding: 0px 6px;
+        border-right: 0;
+    }
+    .header-left {
+        width:90%;
+        margin-top: 16px;
+    }
+    .banner {
+        padding: 100px;
+    }
+    .banner-tittle h1 {
+        padding: 12px 5px;
+        font-size: 20px;
+    }
+    .service-sec {
+        padding: 22px;
+    }
+    .service-us h1 {
+        font-size: 30px;
+        padding: 3px;
+    }
+    .service-us p {
+        padding: 0;
+    }
+    .service {
+        padding: 0px;
+    }
+    .service-item h3 {
+        font-size: 20px;
+        padding: 4px;
+    }
+    .service-item p {
+        padding: 0 0px;
+    }
+    .footer-left p {
+        padding: 0 17px;
+    }
+    .footer-right ul li {
+        margin-left: 25px;
+    }
+    .footer-right ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width:420px){
+    .header-left {
+        width: 90%;
+    }
+    .header-right ul li a {
+        font-size: 15px;
+        padding: 0px 3px;
+    }
+    .header-right {
+        width: 93%;
+    }
+    .banner-tittle h1 {
+        padding: 11px 9px;
+        font-size: 9px;
+    }
+    .banner-tittle h2 {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+    .service-us h1 {
+        font-size: 27px;
+    }
+    .service-us p {
+        font-size: 13px;
+    }
+    .service-one {
+        margin-left: 0px;
+    }
+    .service-item {
+        width: 92%;
+        margin-top: 12px;
+    }
+    .footer-left p {
+        padding: 0 2px;
+    }
+    .footer-right ul li {
+        margin-left: 18px;
+    }
+}
+@media (max-width:320px){
+    .header-right ul li a {
+        font-size: 11px;
+        padding: 0px 5px;
+    }
+    .banner-tittle h1 {
+        padding: 12px 5px;
+        font-size: 15px;
+    }
+    .banner-tittle h2 {
+        font-size: 16px;
+    }
+}
